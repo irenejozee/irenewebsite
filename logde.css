@@ -1,0 +1,152 @@
+body{
+    background: url(Images/hotel-3.jpg);
+    margin: 0;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header{
+    align-items: center;
+    text-align: center;
+    color: rgba(71, 17, 58, 0.9);
+}
+header h1{
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.reg-box{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    align-items: auto;
+    width: 55%;
+    
+}
+.rform{
+    width: 45%;
+    margin-right: 50px;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.amida{
+    margin-top: 2px;
+    padding-left: 25px;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+}
+.amida p{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    color: #333;
+}
+.rform,
+.amida{
+    padding: 20px;
+    margin-left: 45px;
+    border: 1px  #ccc;
+    border-radius: 5px;
+    
+}
+/* .reg-box{
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: #fff;
+    align-items: center;
+} */
+.rform h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+.fg{
+    margin-bottom: 15px;
+}
+.fg label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+.fg input{
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+.fg input:focus{
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.reg-box .irene p{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.reg-box .Rgroup{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.reg-box  .Rgroup input[type="radio"]{
+    margin-right: 0.5em;
+}
+.reg-box .Rgroup label{
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+.reg-box .Ogroup{
+    align-items: center;
+    margin-bottom: 1em;
+}
+.reg-box .Ogroup label{
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+.reg-box .Ogroup select{
+    padding: 0.5em;
+    margin: 0.2em 0;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    background-color: #fff;
+}
+
+    /* font-size: 1em;
+    font-weight: bolder;
+    color: #201186;
+    line-height: 1.5; */
+
+.reg-box .bt-reg{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.reg-box .bt-reg:hover{
+    background-color:black;
+}
