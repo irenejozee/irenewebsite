@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logde.css">
+    <title>IRENE'S Lodge</title>
+</head>
+<body>
+    <marquee><h1>IRENE'S LODGE</h1></marquee>
+    
+    <div class="reg-box">
+        <form action="" class="rform">
+            <h2>Registration Form</h2>
+            <div class="fg">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="First name" required>
+            </div>
+            <div class="fg">
+                <label for="sname">Second Name</label>
+                <input type="text" id="sname" name="sname" placeholder="Second name" required>
+            </div>
+            <div class="fg">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Last name" required>
+            </div>
+            <div class="irene">
+                <span><p>Choose your gender:</p></span>
+            </div>
+        
+            <div class="Rgroup">      
+                <label for="male">Male</label> 
+                <input type="radio" id="male" name="gender" value="Male" required>
+            </div>
+            <div class="Rgroup">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="Female" required>
+            </div>
+        
+            <div class="Ogroup">
+                <label for="type_rooms">Type of Rooms</label><br>
+                <select name="nroom" id="num_rooms" required>
+                    <option value="" disabled selected>Select The Type of Room</option>
+                    <option value="1">A-1</option>
+                    <option value="2">A-4</option>
+                    <option value="3">VIP</option>
+                    <option value="4">VIP-B</option>
+                </select>
+            </div>
+            <div class="Ogroup">
+                <label for="num_days">Number of Days</label><br>
+                <select name="nDays" id="num_days" required>
+                    <option value="" disabled selected>Select Number of Days you shall stay</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">5</option>
+                </select>
+            </div>
+        
+            <button class="bt-reg" type="submit">Register</button>
+        </form>
+        <div class="amida">
+            <p>Welcome to IRENE'S LODGE, <br>WE ARE READY TO SERVE YOU <br>HIGH QUALITY SERVICES IS OUR CULTURE</p>
+        </div>
+    </div>
+</body>
+</html>
